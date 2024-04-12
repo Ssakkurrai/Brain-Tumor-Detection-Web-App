@@ -1,5 +1,7 @@
-numpy
-pandas
+ffmpeg
+libsm6
+libxext6
 opencv-python
 tensorflow
 keras
+numpy
