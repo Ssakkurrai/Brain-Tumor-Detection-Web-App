@@ -1,7 +1,6 @@
 ffmpeg
-libsm6
-libxext6
-opencv-python
+libgl1
+opencv-python-headless
 tensorflow
 keras
 numpy
