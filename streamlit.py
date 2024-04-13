@@ -27,7 +27,7 @@ def main():
     #     show_file.image(img)
     if st.button("Predict"):
         result = predict_tumor(image)
-        if (result == 1):
+        if (result == 0):
             st.error("Tumor detected in brain.")
         else:
             st.success("No tumor detected.")
